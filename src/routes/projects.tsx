@@ -35,19 +35,65 @@ type Project = {
 };
 
 const projects: Project[] = [
+  // UPVC Windows
   { title: "Casement UPVC Windows — Villa", cat: "UPVC Windows", loc: "Tilkamanjhi, Bhagalpur", img: projUpvc, desc: "Full villa fit-out with white UPVC casement windows and toughened glass." },
+  { title: "Tilt & Turn UPVC Windows", cat: "UPVC Windows", loc: "Adampur, Bhagalpur", img: projUpvc, desc: "Dual-function tilt & turn windows for bedrooms with energy-efficient glazing." },
+  { title: "Fixed UPVC Picture Windows", cat: "UPVC Windows", loc: "Sabour, Bhagalpur", img: projUpvc, desc: "Large fixed UPVC picture windows framing scenic views." },
+
+  // UPVC Doors
   { title: "Main UPVC Entrance Door", cat: "UPVC Doors", loc: "Adampur, Bhagalpur", img: projUpvc, desc: "Wood-grain UPVC door with multi-point locking and laminated glass." },
+  { title: "UPVC French Doors", cat: "UPVC Doors", loc: "Nathnagar, Bhagalpur", img: projUpvc, desc: "Twin-leaf French doors opening to the balcony with toughened glass." },
+  { title: "UPVC Bathroom Door", cat: "UPVC Doors", loc: "Mojahidpur", img: projUpvc, desc: "Water-resistant UPVC door with frosted glass for bathrooms." },
+
+  // Sliding Windows
   { title: "3-Track Sliding Windows", cat: "Sliding Windows", loc: "Mojahidpur", img: projOffice, desc: "Premium 3-track sliding windows with integrated mosquito mesh." },
+  { title: "2-Track Sliding Windows", cat: "Sliding Windows", loc: "Tilkamanjhi", img: projOffice, desc: "Slimline 2-track sliding windows for compact rooms." },
+  { title: "Bay Sliding Windows", cat: "Sliding Windows", loc: "Bhagalpur", img: projOffice, desc: "Corner bay sliding windows with panoramic glass." },
+
+  // Sliding Doors
   { title: "Floor-to-Ceiling Sliding Doors", cat: "Sliding Doors", loc: "Sabour", img: heroImg, desc: "Living room opens out to garden via large sliding glass doors." },
+  { title: "Balcony Sliding Door", cat: "Sliding Doors", loc: "Adampur", img: heroImg, desc: "Slim-profile 2-panel sliding door for high-rise balcony." },
+  { title: "Patio Sliding Door System", cat: "Sliding Doors", loc: "Nathnagar", img: heroImg, desc: "4-panel sliding patio door with low-threshold track." },
+
+  // Aluminium Partitions
   { title: "Office Cabin Partitions", cat: "Aluminium Partitions", loc: "Tilkamanjhi", img: projOffice, desc: "Aluminium cabins with frosted glass for a corporate office." },
+  { title: "Conference Room Partition", cat: "Aluminium Partitions", loc: "Bhagalpur", img: projOffice, desc: "Floor-to-ceiling aluminium and glass partition for boardroom." },
+  { title: "Reception Area Partition", cat: "Aluminium Partitions", loc: "Mojahidpur", img: projOffice, desc: "Custom reception partition with branded frosted film." },
+
+  // Glass Doors
   { title: "Frameless Glass Door", cat: "Glass Doors", loc: "Bhagalpur Showroom", img: projOffice, desc: "12mm toughened frameless glass entrance with patch fittings." },
+  { title: "Automatic Sliding Glass Door", cat: "Glass Doors", loc: "Tilkamanjhi", img: projOffice, desc: "Sensor-based automatic sliding glass door for showroom." },
+  { title: "Pivot Glass Entrance Door", cat: "Glass Doors", loc: "Bhagalpur", img: projOffice, desc: "Heavy-duty pivot glass door with stainless steel hardware." },
+
+  // Glass Partitions
   { title: "Boardroom Glass Partition", cat: "Glass Partitions", loc: "Bhagalpur", img: projOffice, desc: "Double-glazed acoustic partition for executive boardroom." },
+  { title: "Cabin Glass Partition", cat: "Glass Partitions", loc: "Tilkamanjhi", img: projOffice, desc: "Single-glazed cabin partition with door for manager cabins." },
+  { title: "Curved Glass Partition", cat: "Glass Partitions", loc: "Adampur", img: projOffice, desc: "Curved toughened glass partition for premium office lobby." },
+
+  // Toughened Glass
   { title: "Toughened Glass Façade", cat: "Toughened Glass", loc: "Bhagalpur", img: projAcp, desc: "Structural toughened glass with spider fittings for shop frontage." },
-  { title: "Shop ACP Façade", cat: "ACP Cladding", loc: "Tilkamanjhi", img: projAcp, desc: "Silver & charcoal ACP cladding with concealed LED channels." },
-  { title: "Staircase Glass Railing", cat: "Steel Railings", loc: "Nathnagar", img: projRailing, desc: "SS railing with 12mm toughened glass for a 3-storey home." },
-  { title: "Modern Living Room Interior", cat: "Home Interiors", loc: "Bhagalpur", img: projInterior, desc: "Turnkey interior with TV unit, false ceiling and lighting." },
   { title: "Bathroom Shower Enclosure", cat: "Toughened Glass", loc: "Bhagalpur", img: projShower, desc: "Frameless shower with 10mm toughened glass and premium hinges." },
+  { title: "Toughened Glass Canopy", cat: "Toughened Glass", loc: "Tilkamanjhi", img: projAcp, desc: "Overhead toughened glass canopy with SS spider supports." },
+
+  // ACP Cladding
+  { title: "Shop ACP Façade", cat: "ACP Cladding", loc: "Tilkamanjhi", img: projAcp, desc: "Silver & charcoal ACP cladding with concealed LED channels." },
+  { title: "Office Building ACP", cat: "ACP Cladding", loc: "Bhagalpur", img: projAcp, desc: "Multi-storey office ACP elevation in matte champagne finish." },
+  { title: "Showroom Signage ACP", cat: "ACP Cladding", loc: "Adampur", img: projAcp, desc: "ACP signage wall with backlit branding for retail showroom." },
+
+  // Steel Railings
+  { title: "Staircase Glass Railing", cat: "Steel Railings", loc: "Nathnagar", img: projRailing, desc: "SS railing with 12mm toughened glass for a 3-storey home." },
+  { title: "Balcony SS Railing", cat: "Steel Railings", loc: "Bhagalpur", img: projRailing, desc: "Stainless steel balcony railing with horizontal rods." },
+  { title: "Terrace Glass Railing", cat: "Steel Railings", loc: "Sabour", img: projRailing, desc: "Frameless toughened glass railing for terrace garden." },
+
+  // Home Interiors
+  { title: "Modern Living Room Interior", cat: "Home Interiors", loc: "Bhagalpur", img: projInterior, desc: "Turnkey interior with TV unit, false ceiling and lighting." },
+  { title: "Modular Kitchen", cat: "Home Interiors", loc: "Tilkamanjhi", img: projInterior, desc: "L-shaped modular kitchen with quartz countertop and tall units." },
+  { title: "Master Bedroom Interior", cat: "Home Interiors", loc: "Adampur", img: projInterior, desc: "Master bedroom with wardrobe, headboard panelling and ambient lighting." },
+
+  // Office Interiors
   { title: "Co-working Office Interior", cat: "Office Interiors", loc: "Tilkamanjhi", img: projOffice, desc: "Glass cabins, modular workstations and branded ACP wall." },
+  { title: "Director's Cabin Interior", cat: "Office Interiors", loc: "Bhagalpur", img: projOffice, desc: "Premium director's cabin with veneer panelling and glass partition." },
+  { title: "Reception & Lobby Interior", cat: "Office Interiors", loc: "Mojahidpur", img: projOffice, desc: "Corporate reception with backlit logo wall and lounge seating." },
 ];
 
 function Projects() {
