@@ -4,6 +4,7 @@ import { MapPin } from "lucide-react";
 import { PageHero } from "./about";
 import projOffice from "@/assets/project-office.jpg";
 import projUpvc from "@/assets/project-upvc.jpg";
+import projUpvc2 from "@/assets/project-upvcwind.jpg";
 import projRailing from "@/assets/project-railing.jpg";
 import projShower from "@/assets/project-shower.jpg";
 import projAcp from "@/assets/project-acp.jpg";
@@ -37,7 +38,7 @@ type Project = {
 const projects: Project[] = [
   // UPVC Windows
   { title: "Casement UPVC Windows — Villa", cat: "UPVC Windows", loc: "Tilkamanjhi, Bhagalpur", img: projUpvc, desc: "Full villa fit-out with white UPVC casement windows and toughened glass." },
-  { title: "Tilt & Turn UPVC Windows", cat: "UPVC Windows", loc: "Adampur, Bhagalpur", img: projUpvc, desc: "Dual-function tilt & turn windows for bedrooms with energy-efficient glazing." },
+  { title: "Tilt & Turn UPVC Windows", cat: "UPVC Windows", loc: "Adampur, Bhagalpur", img: projUpvc2, desc: "Dual-function tilt & turn windows for bedrooms with energy-efficient glazing." },
   { title: "Fixed UPVC Picture Windows", cat: "UPVC Windows", loc: "Sabour, Bhagalpur", img: projUpvc, desc: "Large fixed UPVC picture windows framing scenic views." },
 
   // UPVC Doors
