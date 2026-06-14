@@ -4,7 +4,6 @@ import { MapPin } from "lucide-react";
 import { PageHero } from "./about";
 import projOffice from "@/assets/project-office.jpg";
 import projUpvc from "@/assets/project-upvc.jpg";
-import projUpvc from "@/assets/project-upvcwind.jpg";
 import projRailing from "@/assets/project-railing.jpg";
 import projShower from "@/assets/project-shower.jpg";
 import projAcp from "@/assets/project-acp.jpg";
