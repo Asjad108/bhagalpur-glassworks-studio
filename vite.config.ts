@@ -18,12 +18,6 @@ export default defineConfig({
     server: { entry: "server" },
   },
   nitro: {
-    preset: "static",
-    prerender: {
-      crawlLinks: true,
-      routes: ["/", "/about", "/services", "/projects", "/reviews", "/contact"],
-      autoSubfolderIndex: true,
-      failOnError: false,
-    },
+    preset: "github-pages",
   },
 });
