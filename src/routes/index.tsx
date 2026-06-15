@@ -46,6 +46,67 @@ export const Route = createFileRoute("/")({
           })),
         }),
       },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://tajmahalglass.lovable.app/#localbusiness",
+          name: BUSINESS.name,
+          alternateName: BUSINESS.shortName,
+          image: "https://tajmahalglass.lovable.app/og-image.jpg",
+          url: "https://tajmahalglass.lovable.app",
+          telephone: BUSINESS.phone,
+          priceRange: "₹₹",
+          description:
+            "TMG – Taj Mahal Glass: UPVC windows & doors, toughened glass, aluminium partitions, ACP cladding, steel railings and interior design in Bhagalpur, Bihar.",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: BUSINESS.address.line1,
+            addressLocality: BUSINESS.address.city,
+            addressRegion: BUSINESS.address.state,
+            postalCode: BUSINESS.address.pincode,
+            addressCountry: "IN",
+          },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: 25.2425,
+            longitude: 86.9842,
+          },
+          areaServed: [
+            { "@type": "City", name: "Bhagalpur" },
+            { "@type": "AdministrativeArea", name: "Bihar" },
+          ],
+          openingHoursSpecification: [
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
+              opens: "09:00",
+              closes: "20:00",
+            },
+          ],
+          hasMap: BUSINESS.mapsLink,
+          sameAs: [
+            "https://wa.me/" + BUSINESS.whatsapp,
+          ],
+          makesOffer: SERVICES.map((s) => ({
+            "@type": "Offer",
+            itemOffered: { "@type": "Service", name: s.title, description: s.short },
+          })),
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.9",
+            reviewCount: "120",
+          },
+        }),
+      },
     ],
   }),
   component: Home,
