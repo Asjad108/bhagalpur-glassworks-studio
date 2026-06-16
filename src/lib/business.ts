@@ -5,9 +5,9 @@ export const BUSINESS = {
   phoneTel: "+918271145798",
   whatsapp: "918271145798",
   whatsappMessage:
-    "Hi TMG, I would like a quote for UPVC windows / glass / interiors.",
+    "Hi TMG, I would like to talk for my requirement.",
   address: {
-    line1: "Ground Floor, SBI Bank, Narayana Colony",
+    line1: "Ground Floor, Near SBI Bank,",
     line2: "Tilkamanjhi, Bhagalpur, Bihar 812001",
     city: "Bhagalpur",
     state: "Bihar",
@@ -15,9 +15,9 @@ export const BUSINESS = {
   },
   hours: "Mon – Sat: 9:00 AM – 8:00 PM · Sun: By appointment",
   mapsEmbed:
-    "https://www.google.com/maps?q=Tilkamanjhi,Bhagalpur,Bihar+812001&output=embed",
+    "https://www.google.com/maps/place/Taj+Mahal+Glass+-+UPVC,+Aluminium,+Plywood,+Interior+Solutions/@25.2538181,87.0028919,17z/data=!3m1!4b1!4m6!3m5!1s0x39f0373a2e39db33:0x5f7a2838b016d196!8m2!3d25.2538181!4d87.0028919!16s%2Fg%2F11kqrlbp5v?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D&output=embed",
   mapsLink:
-    "https://www.google.com/maps/search/?api=1&query=Tilkamanjhi+Bhagalpur+812001",
+    "https://www.google.com/maps/place/Taj+Mahal+Glass+-+UPVC,+Aluminium,+Plywood,+Interior+Solutions/@25.2538181,87.0028919,17z/data=!3m1!4b1!4m6!3m5!1s0x39f0373a2e39db33:0x5f7a2838b016d196!8m2!3d25.2538181!4d87.0028919!16s%2Fg%2F11kqrlbp5v?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
 };
 
 export const waLink = (msg = BUSINESS.whatsappMessage) =>
