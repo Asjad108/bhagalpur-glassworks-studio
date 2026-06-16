@@ -15,7 +15,7 @@ export const BUSINESS = {
   },
   hours: "Mon – Sat: 9:00 AM – 8:00 PM · Sun: By appointment",
   mapsEmbed:
-    "https://www.google.com/maps/place/Taj+Mahal+Glass+-+UPVC,+Aluminium,+Plywood,+Interior+Solutions/@25.2538181,87.0028919,17z/data=!3m1!4b1!4m6!3m5!1s0x39f0373a2e39db33:0x5f7a2838b016d196!8m2!3d25.2538181!4d87.0028919!16s%2Fg%2F11kqrlbp5v?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D&output=embed",
+   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.498287212401!2d87.0028919!3d25.2538181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0373a2e39db33%3A0x5f7a2838b016d196!2sTaj%20Mahal%20Glass%20-%20UPVC%2C%20Aluminium%2C%20Plywood%2C%20Interior%20Solutions!5e0!3m2!1sen!2sin!4v1781628677066!5m2!1sen!2sin",
   mapsLink:
     "https://www.google.com/maps/place/Taj+Mahal+Glass+-+UPVC,+Aluminium,+Plywood,+Interior+Solutions/@25.2538181,87.0028919,17z/data=!3m1!4b1!4m6!3m5!1s0x39f0373a2e39db33:0x5f7a2838b016d196!8m2!3d25.2538181!4d87.0028919!16s%2Fg%2F11kqrlbp5v?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
 };
