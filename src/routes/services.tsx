@@ -17,9 +17,22 @@ export const Route = createFileRoute("/services")({
       { name: "description", content: "UPVC windows & doors, sliding & casement windows, aluminium & glass partitions, toughened glass, ACP cladding, steel railings and interior design in Bhagalpur, Bihar." },
       { property: "og:title", content: "Services | TMG – Taj Mahal Glass Bhagalpur" },
       { property: "og:description", content: "Premium UPVC, glass, aluminium and interior design services in Bhagalpur." },
-      { property: "og:url", content: "/services" },
+      { property: "og:url", content: "https://tajmahalglass.lovable.app/services" },
     ],
-    links: [{ rel: "canonical", href: "/services" }],
+    links: [{ rel: "canonical", href: "https://tajmahalglass.lovable.app/services" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.lovable.app/" },
+            { "@type": "ListItem", position: 2, name: "Services", item: "https://tajmahalglass.lovable.app/services" },
+          ],
+        }),
+      },
+    ],
   }),
   component: Services,
 });

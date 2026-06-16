@@ -30,9 +30,11 @@ export const Route = createFileRoute("/")({
       { name: "keywords", content: "UPVC Window Bhagalpur, UPVC Door Bhagalpur, Glass Work Bhagalpur, Aluminium Partition Bhagalpur, Interior Designer Bhagalpur, Toughened Glass Bhagalpur, ACP Cladding Bhagalpur" },
       { property: "og:title", content: "TMG – Taj Mahal Glass | UPVC & Interiors in Bhagalpur" },
       { property: "og:description", content: "Premium UPVC windows, glass, aluminium partitions & interior design in Bhagalpur." },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://tajmahalglass.lovable.app/" },
+      { property: "og:image", content: "https://tajmahalglass.lovable.app/og-image.jpg" },
+      { name: "twitter:image", content: "https://tajmahalglass.lovable.app/og-image.jpg" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://tajmahalglass.lovable.app/" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -44,6 +46,16 @@ export const Route = createFileRoute("/")({
             name: f.q,
             acceptedAnswer: { "@type": "Answer", text: f.a },
           })),
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.lovable.app/" },
+          ],
         }),
       },
       {

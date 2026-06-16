@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 
-const BASE_URL = "";
+const BASE_URL = "https://tajmahalglass.lovable.app";
 const paths = ["/", "/about", "/services", "/projects", "/reviews", "/contact"];
 
 export const Route = createFileRoute("/sitemap.xml")({

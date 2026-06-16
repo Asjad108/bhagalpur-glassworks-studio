@@ -91,8 +91,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "TMG – Taj Mahal Glass | UPVC Windows & Interiors in Bhagalpur" },
       { property: "og:description", content: "TMG – Taj Mahal Glass, Bhagalpur: premium UPVC windows & doors, aluminium partitions, toughened glass, ACP cladding, steel railings and interior design." },
       { name: "twitter:description", content: "TMG – Taj Mahal Glass, Bhagalpur: premium UPVC windows & doors, aluminium partitions, toughened glass, ACP cladding, steel railings and interior design." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a4063685-62ef-47eb-a9db-3fc13232eabf/id-preview-5e66285f--00ededd8-e33d-481d-8928-4077e7aea6ea.lovable.app-1781291476926.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a4063685-62ef-47eb-a9db-3fc13232eabf/id-preview-5e66285f--00ededd8-e33d-481d-8928-4077e7aea6ea.lovable.app-1781291476926.png" },
     ],
     links: [
       {
@@ -106,28 +104,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap",
       },
     ],
-    scripts: [
-      {
-        type: "application/ld+json",
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          name: "TMG – Taj Mahal Glass",
-          image: "/og-image.jpg",
-          telephone: "+918271145798",
-          address: {
-            "@type": "PostalAddress",
-            streetAddress: "Ground Floor, SBI Bank, Narayana Colony, Tilkamanjhi",
-            addressLocality: "Bhagalpur",
-            addressRegion: "Bihar",
-            postalCode: "812001",
-            addressCountry: "IN",
-          },
-          areaServed: "Bhagalpur, Bihar",
-          priceRange: "₹₹",
-        }),
-      },
-    ],
+    scripts: [],
   }),
   shellComponent: RootShell,
   component: RootComponent,
