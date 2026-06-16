@@ -82,8 +82,8 @@ export const Route = createFileRoute("/")({
           },
           geo: {
             "@type": "GeoCoordinates",
-            latitude: 25.2425,
-            longitude: 86.9842,
+            latitude: 25.2538181,
+            longitude: 87.0028919,
           },
           areaServed: [
             { "@type": "City", name: "Bhagalpur" },
