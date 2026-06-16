@@ -60,7 +60,7 @@ function Reviews() {
           <div>
             <div className="flex items-center gap-1 text-[color:var(--navy)]">
               {[...Array(5)].map((_, i) => <Star key={i} className="h-5 w-5 fill-current" />)}
-              <span className="ml-2 font-display text-lg font-semibold text-foreground">4.8 / 5</span>
+              <span className="ml-2 font-display text-lg font-semibold text-foreground">4.9 / 5</span>
             </div>
             <p className="mt-1 text-sm text-muted-foreground">Average rating across UPVC, glass and interior projects.</p>
           </div>
