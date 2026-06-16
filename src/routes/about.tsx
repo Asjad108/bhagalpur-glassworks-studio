@@ -10,9 +10,22 @@ export const Route = createFileRoute("/about")({
       { name: "description", content: "TMG – Taj Mahal Glass is a trusted Bhagalpur company specialising in UPVC windows & doors, aluminium partitions, toughened glass, ACP cladding, steel railings and interior design." },
       { property: "og:title", content: "About TMG – Taj Mahal Glass" },
       { property: "og:description", content: "Bhagalpur's trusted UPVC, glass and interior design company." },
-      { property: "og:url", content: "/about" },
+      { property: "og:url", content: "https://tajmahalglass.lovable.app/about" },
     ],
-    links: [{ rel: "canonical", href: "/about" }],
+    links: [{ rel: "canonical", href: "https://tajmahalglass.lovable.app/about" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.lovable.app/" },
+            { "@type": "ListItem", position: 2, name: "About", item: "https://tajmahalglass.lovable.app/about" },
+          ],
+        }),
+      },
+    ],
   }),
   component: About,
 });

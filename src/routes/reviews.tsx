@@ -16,9 +16,22 @@ export const Route = createFileRoute("/reviews")({
       { name: "description", content: "Read customer reviews for TMG – Taj Mahal Glass. Trusted UPVC, glass and interior design service across Bhagalpur, Bihar." },
       { property: "og:title", content: "Customer Reviews | TMG Bhagalpur" },
       { property: "og:description", content: "What our customers say about our UPVC, glass and interior projects." },
-      { property: "og:url", content: "/reviews" },
+      { property: "og:url", content: "https://tajmahalglass.lovable.app/reviews" },
     ],
-    links: [{ rel: "canonical", href: "/reviews" }],
+    links: [{ rel: "canonical", href: "https://tajmahalglass.lovable.app/reviews" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.lovable.app/" },
+            { "@type": "ListItem", position: 2, name: "Reviews", item: "https://tajmahalglass.lovable.app/reviews" },
+          ],
+        }),
+      },
+    ],
   }),
   component: Reviews,
 });
