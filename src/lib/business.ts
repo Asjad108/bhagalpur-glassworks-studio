@@ -5,7 +5,7 @@ export const BUSINESS = {
   phoneTel: "+918271145798",
   whatsapp: "918271145798",
   whatsappMessage:
-    "Hi TMG, I would like to talk for my requirement.",
+    "Hello TMG, I am interested in your services. Please share more details.",
   address: {
     line1: "Ground Floor, Near SBI Bank,",
     line2: "Tilkamanjhi, Bhagalpur, Bihar 812001",
