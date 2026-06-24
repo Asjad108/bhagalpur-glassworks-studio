@@ -30,11 +30,11 @@ export const Route = createFileRoute("/")({
       { name: "keywords", content: "UPVC Window Bhagalpur, UPVC Door Bhagalpur, Glass Work Bhagalpur, Aluminium Partition Bhagalpur, Interior Designer Bhagalpur, Toughened Glass Bhagalpur, ACP Cladding Bhagalpur" },
       { property: "og:title", content: "TMG – Taj Mahal Glass | UPVC & Interiors in Bhagalpur" },
       { property: "og:description", content: "Premium UPVC windows, glass, aluminium partitions & interior design in Bhagalpur." },
-      { property: "og:url", content: "https://tajmahalglass.lovable.app/" },
-      { property: "og:image", content: "https://tajmahalglass.lovable.app/og-image.jpg" },
-      { name: "twitter:image", content: "https://tajmahalglass.lovable.app/og-image.jpg" },
+      { property: "og:url", content: "https://tajmahalglass.com/" },
+      { property: "og:image", content: "https://tajmahalglass.com/og-image.jpg" },
+      { name: "twitter:image", content: "https://tajmahalglass.com/og-image.jpg" },
     ],
-    links: [{ rel: "canonical", href: "https://tajmahalglass.lovable.app/" }],
+    links: [{ rel: "canonical", href: "https://tajmahalglass.com/" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -54,7 +54,7 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.lovable.app/" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.com/" },
           ],
         }),
       },
@@ -63,11 +63,11 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "@id": "https://tajmahalglass.lovable.app/#localbusiness",
+          "@id": "https://tajmahalglass.com/#localbusiness",
           name: BUSINESS.name,
           alternateName: BUSINESS.shortName,
-          image: "https://tajmahalglass.lovable.app/og-image.jpg",
-          url: "https://tajmahalglass.lovable.app",
+          image: "https://tajmahalglass.com/og-image.jpg",
+          url: "https://tajmahalglass.com",
           telephone: BUSINESS.phone,
           priceRange: "₹₹",
           description:
