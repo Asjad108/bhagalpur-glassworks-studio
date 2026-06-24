@@ -4,7 +4,7 @@ import {
   ArrowRight,
   CheckCircle2,
   MapPin,
-  Phone,
+  Phone,h
   ShieldCheck,
   Sparkles,
   Hammer,
@@ -185,7 +185,7 @@ function Home() {
           <div className="container-px mx-auto max-w-7xl py-20 md:py-32 lg:py-40">
             <div className="max-w-2xl text-white">
               <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-white/85 backdrop-blur">
-                <Sparkles className="h-3.5 w-3.5" /> Bhagalpur · Since years of trust
+                <Sparkles className="h-3.5 w-3.5" /> Bhagalpur · Since 15 Years of Trust
               </span>
               <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.1] md:text-5xl lg:text-6xl">
                 Premium UPVC Windows, Glass Solutions & Interior Design in Bhagalpur
