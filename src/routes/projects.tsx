@@ -17,9 +17,9 @@ export const Route = createFileRoute("/projects")({
       { name: "description", content: "Browse TMG's recent UPVC windows, sliding doors, glass partitions, ACP cladding, steel railings and interior projects across Bhagalpur and Bihar." },
       { property: "og:title", content: "Projects | TMG – Taj Mahal Glass" },
       { property: "og:description", content: "Recent UPVC, glass and interior projects in Bhagalpur." },
-      { property: "og:url", content: "https://tajmahalglass.lovable.app/projects" },
+      { property: "og:url", content: "https://tajmahalglass.com/projects" },
     ],
-    links: [{ rel: "canonical", href: "https://tajmahalglass.lovable.app/projects" }],
+    links: [{ rel: "canonical", href: "https://tajmahalglass.com/projects" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -27,8 +27,8 @@ export const Route = createFileRoute("/projects")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.lovable.app/" },
-            { "@type": "ListItem", position: 2, name: "Projects", item: "https://tajmahalglass.lovable.app/projects" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.com/" },
+            { "@type": "ListItem", position: 2, name: "Projects", item: "https://tajmahalglass.com/projects" },
           ],
         }),
       },

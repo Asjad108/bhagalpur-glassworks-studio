@@ -11,9 +11,9 @@ export const Route = createFileRoute("/contact")({
       { name: "description", content: "Contact TMG – Taj Mahal Glass in Tilkamanjhi, Bhagalpur. Call +91 8271145798, WhatsApp us or request a free site visit for UPVC, glass and interior projects." },
       { property: "og:title", content: "Contact TMG – Taj Mahal Glass" },
       { property: "og:description", content: "Get in touch for UPVC windows, glass work and interior design in Bhagalpur." },
-      { property: "og:url", content: "https://tajmahalglass.lovable.app/contact" },
+      { property: "og:url", content: "https://tajmahalglass.com/contact" },
     ],
-    links: [{ rel: "canonical", href: "https://tajmahalglass.lovable.app/contact" }],
+    links: [{ rel: "canonical", href: "https://tajmahalglass.com/contact" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -21,8 +21,8 @@ export const Route = createFileRoute("/contact")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.lovable.app/" },
-            { "@type": "ListItem", position: 2, name: "Contact", item: "https://tajmahalglass.lovable.app/contact" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://tajmahalglass.com/" },
+            { "@type": "ListItem", position: 2, name: "Contact", item: "https://tajmahalglass.com/contact" },
           ],
         }),
       },
