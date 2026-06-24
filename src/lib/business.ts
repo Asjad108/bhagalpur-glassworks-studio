@@ -13,7 +13,7 @@ export const BUSINESS = {
     state: "Bihar",
     pincode: "812001",
   },
-  hours: "Mon – Sat: 9:00 AM – 8:00 PM · Sun: By appointment",
+  hours: "Mon – Sat: 10:00 AM – 8:00 PM · Sun: By appointment",
   mapsEmbed:
    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.498287212401!2d87.0028919!3d25.2538181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0373a2e39db33%3A0x5f7a2838b016d196!2sTaj%20Mahal%20Glass%20-%20UPVC%2C%20Aluminium%2C%20Plywood%2C%20Interior%20Solutions!5e0!3m2!1sen!2sin!4v1781628677066!5m2!1sen!2sin",
   mapsLink:
