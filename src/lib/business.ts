@@ -7,7 +7,7 @@ export const BUSINESS = {
   whatsappMessage:
     "Hello TMG, I am interested in your services. Please share more details.",
   address: {
-    line1: "Ground Floor, Near SBI Bank,",
+    line1: "ground floor, sbi bank, Narayana Colony,",
     line2: "Tilkamanjhi, Bhagalpur, Bihar 812001",
     city: "Bhagalpur",
     state: "Bihar",
