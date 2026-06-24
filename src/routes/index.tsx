@@ -4,7 +4,7 @@ import {
   ArrowRight,
   CheckCircle2,
   MapPin,
-  Phone,h
+      Phone,
   ShieldCheck,
   Sparkles,
   Hammer,
