@@ -91,6 +91,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "TMG – Taj Mahal Glass | UPVC Windows & Interiors in Bhagalpur" },
       { property: "og:description", content: "TMG – Taj Mahal Glass, Bhagalpur: premium UPVC windows & doors, aluminium partitions, toughened glass, ACP cladding, steel railings and interior design." },
       { name: "twitter:description", content: "TMG – Taj Mahal Glass, Bhagalpur: premium UPVC windows & doors, aluminium partitions, toughened glass, ACP cladding, steel railings and interior design." },
+      { name: "google-site-verification", content: "i6R1lIKpHNkNV6lYukiUc23smSTBHnc6VTSN6DM4b0Q" },
     ],
     links: [
       {
